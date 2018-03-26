@@ -65,6 +65,8 @@ public class RecyclerViewActivity extends AppCompatActivity {
         recyclerViewAdapter.addItem("RecyclerView Row 1");
         recyclerViewAdapter.addItem("RecyclerView Row 2");
         recyclerViewAdapter.addItem("RecyclerView Row 3");
+        recyclerViewAdapter.addItem("RecyclerView Row 4");
+        recyclerViewAdapter.addItem("RecyclerView Row 5");
 
         new Handler().postDelayed(new Runnable() {
             @Override

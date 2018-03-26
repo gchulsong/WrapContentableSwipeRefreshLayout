@@ -57,6 +57,7 @@ public class ListViewActivity extends AppCompatActivity {
         arrayAdapter.add("ListView Row 1");
         arrayAdapter.add("ListView Row 2");
         arrayAdapter.add("ListView Row 3");
+        arrayAdapter.add("ListView Row 4");
 
         new Handler().postDelayed(new Runnable() {
             @Override
