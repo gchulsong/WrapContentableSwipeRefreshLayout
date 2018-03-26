@@ -9,7 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/wrapcontentableswiperefreshlayout2" />
+            <option value="$PROJECT_DIR$/wrapcontentableswiperefreshlayout" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -1,1 +1,1 @@
-include ':app', ':wrapcontentableswiperefreshlayout2'
+include ':app', ':wrapcontentableswiperefreshlayout'
