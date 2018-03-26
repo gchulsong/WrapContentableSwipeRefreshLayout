@@ -1,4 +1,4 @@
-package com.gchulsong.wrapcontentableswiperefreshlayout;
+package com.gchulsong.example.wrapcontentableswiperefreshlayout;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

@@ -1,9 +1,9 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 26
     defaultConfig {
-        applicationId "com.gchulsong.wrapcontentableswiperefreshlayout"
+        applicationId "com.gchulsong.example.wrapcontentableswiperefreshlayout"
         minSdkVersion 16
         targetSdkVersion 26
         versionCode 1

@@ -1,4 +1,4 @@
-package com.prism.live.common.view;
+package com.gchulsong.wrapcontentableswiperefreshlayout
 
 import android.content.Context;
 import android.content.res.TypedArray;
