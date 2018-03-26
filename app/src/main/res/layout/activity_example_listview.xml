@@ -7,6 +7,20 @@
     android:background="#333333"
     >
 
+    <FrameLayout
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        >
+
+        <View
+            android:layout_gravity="center"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_chevron_left_white_36dp"
+            />
+    </FrameLayout>
+
     <TextView
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"

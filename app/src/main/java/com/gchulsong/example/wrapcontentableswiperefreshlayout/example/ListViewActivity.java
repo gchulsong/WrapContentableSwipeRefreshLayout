@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -16,14 +17,23 @@ import com.gchulsong.wrapcontentableswiperefreshlayout.WrapContentableSwipeRefre
 
 public class ListViewActivity extends AppCompatActivity {
 
-    private WrapContentableSwipeRefreshLayout wrapContentableSwipeRefreshLayout;
+    private View back;
     private ListView listView;
+    private WrapContentableSwipeRefreshLayout wrapContentableSwipeRefreshLayout;
     private ArrayAdapter<String> arrayAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_example_listview);
+
+        back = findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
 
         wrapContentableSwipeRefreshLayout = findViewById(R.id.wapcontentable_swiperefreshlayout);
         wrapContentableSwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
@@ -43,8 +53,8 @@ public class ListViewActivity extends AppCompatActivity {
         listView = findViewById(R.id.listview);
         listView.setAdapter(arrayAdapter);
 
-        arrayAdapter.add("row 1");
-        arrayAdapter.add("row 2");
-        arrayAdapter.add("row 3");
+        arrayAdapter.add("ListView Row 1");
+        arrayAdapter.add("ListView Row 2");
+        arrayAdapter.add("ListView Row 3");
     }
 }

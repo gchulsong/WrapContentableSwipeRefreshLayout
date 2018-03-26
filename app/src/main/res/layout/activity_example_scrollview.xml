@@ -7,6 +7,20 @@
     android:background="#333333"
     >
 
+    <FrameLayout
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        >
+
+        <View
+            android:layout_gravity="center"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_chevron_left_white_36dp"
+            />
+    </FrameLayout>
+
     <TextView
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
@@ -65,7 +79,7 @@
                         android:layout_height="wrap_content"
                         android:textColor="#333333"
                         android:textSize="12dp"
-                        android:text="row 1"
+                        android:text="LinearLayout Row 1"
                         />
                 </FrameLayout>
 
@@ -84,7 +98,7 @@
                         android:layout_height="wrap_content"
                         android:textColor="#333333"
                         android:textSize="12dp"
-                        android:text="row 2"
+                        android:text="LinearLayout Row 2"
                         />
                 </FrameLayout>
 
@@ -103,7 +117,7 @@
                         android:layout_height="wrap_content"
                         android:textColor="#333333"
                         android:textSize="12dp"
-                        android:text="row 3"
+                        android:text="LinearLayout Row 3"
                         />
                 </FrameLayout>
 
