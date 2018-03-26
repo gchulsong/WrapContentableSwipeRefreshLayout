@@ -5,6 +5,7 @@ import android.os.Handler;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.animation.AnimationUtils;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -48,7 +49,7 @@ public class ListViewActivity extends AppCompatActivity {
             }
         });
 
-        arrayAdapter = new ArrayAdapter<>(this, R.layout.view_adapterview_item, R.id.item);
+        arrayAdapter = new ArrayAdapter<>(this, R.layout.view_adapterview_item, R.id.item_text);
 
         listView = findViewById(R.id.listview);
         listView.setAdapter(arrayAdapter);
@@ -56,5 +57,13 @@ public class ListViewActivity extends AppCompatActivity {
         arrayAdapter.add("ListView Row 1");
         arrayAdapter.add("ListView Row 2");
         arrayAdapter.add("ListView Row 3");
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                wrapContentableSwipeRefreshLayout.setVisibility(View.VISIBLE);
+                wrapContentableSwipeRefreshLayout.startAnimation(AnimationUtils.loadAnimation(ListViewActivity.this, R.anim.view_enter_from_bottom));
+            }
+        }, 300);
     }
 }

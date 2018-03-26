@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorCommonBackground"
+    android:background="#333333"
     >
 
     <FrameLayout
@@ -21,4 +21,56 @@
             />
     </FrameLayout>
 
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="I'm Background"
+        android:textSize="16dp"
+        android:textColor="#CCCCCC"
+        />
+
+    <com.gchulsong.wrapcontentableswiperefreshlayout.WrapContentableSwipeRefreshLayout
+        android:id="@+id/wapcontentable_swiperefreshlayout"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_module"
+            >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                >
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I'm WrapContentable-SwipeRefreshLayout"
+                    android:textSize="16dp"
+                    android:textColor="#333333"
+                    />
+            </FrameLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                />
+        </LinearLayout>
+    </com.gchulsong.wrapcontentableswiperefreshlayout.WrapContentableSwipeRefreshLayout>
 </FrameLayout>

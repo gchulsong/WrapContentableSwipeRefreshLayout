@@ -5,6 +5,7 @@ import android.os.Handler;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.animation.AnimationUtils;
 
 import com.gchulsong.example.wrapcontentableswiperefreshlayout.R;
 import com.gchulsong.wrapcontentableswiperefreshlayout.WrapContentableSwipeRefreshLayout;
@@ -43,5 +44,13 @@ public class ScrollViewActivity extends AppCompatActivity {
                 }, 1000);
             }
         });
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                wrapContentableSwipeRefreshLayout.setVisibility(View.VISIBLE);
+                wrapContentableSwipeRefreshLayout.startAnimation(AnimationUtils.loadAnimation(ScrollViewActivity.this, R.anim.view_enter_from_bottom));
+            }
+        }, 300);
     }
 }
