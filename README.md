@@ -35,10 +35,11 @@ and RecyclerView works well for child view.<br/>
 If there are parts that do not work well, please fix them by using PR.<br/>
 <br/>
 <br/>
+
 ScrollView | ListView | RecylerView
 -----------|----------|------------
 ![ScrollView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_scrollview.gif) | ![ListView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_listview.gif) |![RecyclerView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_recyclerview.gif)
-<br/>
+
 <br/>
 The following figure shows this layout in Prism Live Studio,<br/>
 an app I am participating in as a developer.<br/>
