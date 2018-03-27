@@ -3,6 +3,8 @@ SwipeRefreshLayout with wrap_content available for properties of child View
 <br/>
 <br/>
 <br/>
+## Greetings
+
 Hi developers.
 
 As many android developers know,<br/>
@@ -64,7 +66,8 @@ This layout was made for such a time.
     </android.support.v4.widget.SwipeRefreshLayout>
 </FrameLayout>
 ```
-![Preview](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/asis_preview.png | width=100)
+![Preview](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/asis_preview.png)
+
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
