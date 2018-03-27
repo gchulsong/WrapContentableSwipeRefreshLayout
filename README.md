@@ -15,14 +15,18 @@ when we implement the UI according to the designers' demand.<br/>
 This layout was made for such a time.<br/>
 <br/>
 <br/>
-### SwipeRefreshLayout
-![Code](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/asis_code.png)
-![Preview](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/asis_preview.png)
+
+Code | Preview
+-----|--------
+![Code](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/asis_code.png)|![Preview](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/asis_preview.png)
+
 <br/>
 <br/>
-### WrapContentableSwipeRefreshLayout
-![Code](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/tobe_code.png)
-![Preview](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/tobe_preview.png)
+
+Code | Preview
+-----|--------
+![Code](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/tobe_code.png)|![Preview](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/tobe_preview.png)
+
 <br/>
 <br/>
 This layout uses the code from SwipeRefreshLayout,<br/>
@@ -38,12 +42,12 @@ If there are parts that do not work well, please fix them by using PR.<br/>
 
 ScrollView | ListView | RecylerView
 -----------|----------|------------
-![ScrollView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_scrollview.gif) | ![ListView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_listview.gif) |![RecyclerView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_recyclerview.gif)
+![ScrollView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_scrollview.gif)|![ListView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_listview.gif)|![RecyclerView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_recyclerview.gif)
 
 <br/>
 The following figure shows this layout in Prism Live Studio,<br/>
 an app I am participating in as a developer.<br/>
-![PrismLiveStudio](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_prism.png)
+![PrismLiveStudio](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_prism.gif)
 <br/>
 It's a great live broadcast delivery tool<br/>
 and I hope you will use it a lot.<br/>
