@@ -14,6 +14,11 @@ when we implement the UI according to the designers' demand.
 This layout was made for such a time.
 
 
+SwipeRefreshLayout | WrapContentableSwipeRefreshLayout
+-------------------|----------------------------------
+![SRL](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/asis_code.png) | ![WCSRL](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/tobe_code.png)
+![SRL](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/asis_preview.png) | ![WCSRL](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/tobe_preview.png)
+
 This layout uses the code from SwipeRefreshLayout,
 so you can use all the features of SwipeRefreshLayout 100% equally.
 So, usage is no different from SwipeRefreshLayout.
