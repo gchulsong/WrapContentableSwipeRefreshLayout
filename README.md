@@ -64,8 +64,7 @@ This layout was made for such a time.
     </android.support.v4.widget.SwipeRefreshLayout>
 </FrameLayout>
 ```
-![Preview](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/asis_preview.png){:height="36px" width="36px"}
-
+![Preview](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/asis_preview.png | width=100)
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
