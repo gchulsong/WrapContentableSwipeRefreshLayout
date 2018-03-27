@@ -20,7 +20,7 @@ import java.util.*
 
 class RecyclerViewActivity : AppCompatActivity() {
 
-    private var recyclerViewAdapter: RecyclerViewAdapter? = null
+    private val recyclerViewAdapter: RecyclerViewAdapter = RecyclerViewAdapter()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,18 +32,19 @@ class RecyclerViewActivity : AppCompatActivity() {
         }
 
         wapcontentable_swiperefreshlayout.setOnRefreshListener {
-            Handler().postDelayed({ wapcontentable_swiperefreshlayout.isRefreshing = false }, 1000)
+            Handler().postDelayed({
+                wapcontentable_swiperefreshlayout.isRefreshing = false
+            }, 1000)
         }
 
-        recyclerViewAdapter = RecyclerViewAdapter()
         recyclerview.adapter = recyclerViewAdapter
         recyclerview.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
 
-        recyclerViewAdapter?.addItem("RecyclerView Row 1")
-        recyclerViewAdapter?.addItem("RecyclerView Row 2")
-        recyclerViewAdapter?.addItem("RecyclerView Row 3")
-        recyclerViewAdapter?.addItem("RecyclerView Row 4")
-        recyclerViewAdapter?.addItem("RecyclerView Row 5")
+        recyclerViewAdapter.addItem("RecyclerView Row 1")
+        recyclerViewAdapter.addItem("RecyclerView Row 2")
+        recyclerViewAdapter.addItem("RecyclerView Row 3")
+        recyclerViewAdapter.addItem("RecyclerView Row 4")
+        recyclerViewAdapter.addItem("RecyclerView Row 5")
 
         Handler().postDelayed({
             wapcontentable_swiperefreshlayout.visibility = View.VISIBLE
@@ -53,18 +54,10 @@ class RecyclerViewActivity : AppCompatActivity() {
 
     private inner class RecyclerViewAdapter : RecyclerView.Adapter<RecyclerViewAdapter.ExampleViewHolder>() {
 
-        private val itemTextList: MutableList<String>
-
-        init {
-            itemTextList = ArrayList()
-        }
+        private val itemTextList: MutableList<String> = ArrayList()
 
         inner class ExampleViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-            var itemText: TextView
-
-            init {
-                itemText = view.findViewById(R.id.item_text)
-            }
+            val itemText: TextView = view.findViewById(R.id.item_text)
         }
 
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ExampleViewHolder {

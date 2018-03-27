@@ -26,7 +26,9 @@ class ScrollViewActivity : AppCompatActivity() {
         }
 
         wapcontentable_swiperefreshlayout.setOnRefreshListener {
-            Handler().postDelayed({wapcontentable_swiperefreshlayout?.isRefreshing = false},1000)
+            Handler().postDelayed({
+                wapcontentable_swiperefreshlayout.isRefreshing = false
+            },1000)
         }
 
         for (index in 1..3) {

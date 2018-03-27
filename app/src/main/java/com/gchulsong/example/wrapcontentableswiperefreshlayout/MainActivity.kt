@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, ListViewActivity::class.java))
         }
 
-        button_listview_example.setOnClickListener {
+        button_recyclerview_example.setOnClickListener {
             startActivity(Intent(this, RecyclerViewActivity::class.java))
         }
     }

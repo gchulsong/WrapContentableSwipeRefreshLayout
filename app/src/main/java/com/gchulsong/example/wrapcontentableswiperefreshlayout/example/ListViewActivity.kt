@@ -27,7 +27,9 @@ class ListViewActivity : AppCompatActivity() {
         }
 
         wapcontentable_swiperefreshlayout.setOnRefreshListener {
-            Handler().postDelayed({ wapcontentable_swiperefreshlayout.isRefreshing = false }, 1000)
+            Handler().postDelayed({
+                wapcontentable_swiperefreshlayout.isRefreshing = false
+            }, 1000)
         }
 
         arrayAdapter = ArrayAdapter(this, R.layout.view_adapterview_item, R.id.item_text)
