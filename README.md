@@ -25,6 +25,8 @@ If there are parts that do not work well, please fix them by using PR.
 
 The following figure shows this layout in Prism Live Studio,
 an app I am participating in as a developer.
+[a](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_scrollview.gif)
+
 
 
 It's a great live broadcast delivery tool
