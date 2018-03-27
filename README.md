@@ -28,11 +28,7 @@ an app I am participating in as a developer.
 
 ScrollView | ListView | RecylerView
 -----------|----------|------------
-![ScrollView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_scrollview.gif)
-|![ListView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_listview.gif)
-|![RecyclerView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_recyclerview.gif)
-
-
+![ScrollView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_scrollview.gif) | ![ListView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_listview.gif) |![RecyclerView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_recyclerview.gif)
 
 It's a great live broadcast delivery tool
 and I hope you will use it a lot.
