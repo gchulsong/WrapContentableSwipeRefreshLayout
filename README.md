@@ -18,7 +18,7 @@ This layout was made for such a time.<br/>
 
 Code | Preview
 -----|--------
-![Code](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/asis_code.png)|![Preview](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/asis_preview.png)
+![Code](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/asis_code_new.png)|![Preview](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/asis_preview.png)
 
 <br/>
 <br/>
@@ -47,7 +47,9 @@ ScrollView | ListView | RecylerView
 <br/>
 The following figure shows this layout in Prism Live Studio,<br/>
 an app I am participating in as a developer.<br/>
+
 ![PrismLiveStudio](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_prism.gif)
+
 <br/>
 It's a great live broadcast delivery tool<br/>
 and I hope you will use it a lot.<br/>
