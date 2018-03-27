@@ -136,6 +136,9 @@ ScrollView | ListView | RecylerView
 -----------|----------|------------
 ![ScrollView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_scrollview.gif)|![ListView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_listview.gif)|![RecyclerView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_recyclerview.gif)
 
+Adding a view that can limit the maximum height as a child of<br/>
+WrapContentableSwipeRefreshLayout allows scrolling from within.
+
 
 ## Gradle
 ```
