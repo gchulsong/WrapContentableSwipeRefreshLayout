@@ -2,11 +2,36 @@
 SwipeRefreshLayout with wrap_content available for properties of child View
 
 
-android.support.v4.widget.SwipeRefreshLayout
+Hi developers.
+
+As many developers know,
+android.support.v4.widget.SwipeRefreshLayout does not allow
+the WrapContent attribute on child views.
+
+However, we need to use the property in the SwipeRefreshLayout
+when we implement the UI according to the designers' demand.
+
+This layout was made for such a time.
 
 
+This layout uses the code from SwipeRefreshLayout,
+so you can use all the features of SwipeRefreshLayout 100% equally.
+So, usage is no different from SwipeRefreshLayout.
 
 
+As shown in the picture below, any view such as ScrollView, ListView,
+and RecyclerView works well for child view.
+If there are parts that do not work well, please fix them by using PR.
+
+The following figure shows this layout in Prism Live Studio,
+an app I am participating in as a developer.
+
+
+It's a great live broadcast delivery tool
+and I hope you will use it a lot.
+
+Thank you,
+Jake.
 
 ```
 ------------------------------------------------------------
