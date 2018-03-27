@@ -153,8 +153,7 @@ an app I am participating in as a developer.<br/>
 
 ![PrismLiveStudio](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_prism.gif)
 
-It's a great live broadcast tool<br/>
-and I hope you will use it a lot.
+It's a dope live broadcast tool and I hope you will use it a lot.
 
 Thank you,<br/>
 Jake.
