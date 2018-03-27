@@ -137,10 +137,12 @@ ScrollView | ListView | RecylerView
 ![ScrollView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_scrollview.gif)|![ListView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_listview.gif)|![RecyclerView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_recyclerview.gif)
 
 
-## Maven
-
-TBD
-
+## Gradle
+```
+dependencies {
+    implementation 'com.gchulsong.widget:wrapcontentableswiperefreshlayout:1.0.0'
+}
+```
 
 ## Practice
 
