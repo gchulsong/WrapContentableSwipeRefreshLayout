@@ -15,7 +15,7 @@ when we implement the UI according to the designers' demand.
 This layout was made for such a time.
 
 
-## Difference between SwipeRefreshLayout and WrapContentableSwipeRefreshLayout
+## Difference from SwipeRefreshLayout
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -138,6 +138,7 @@ The following figure shows this layout in Prism Live Studio,<br/>
 an app I am participating in as a developer.<br/>
 
 [PRISM Live Studio](https://play.google.com/store/apps/details?id=com.prism.live)
+
 ![PrismLiveStudio](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_prism.gif)
 
 It's a great live broadcast tool<br/>
