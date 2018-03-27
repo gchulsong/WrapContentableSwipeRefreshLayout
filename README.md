@@ -1,6 +1,6 @@
 # WrapContentableSwipeRefreshLayout
 SwipeRefreshLayout with wrap_content available for properties of child View
-##
+
 
 ## Greetings
 
@@ -13,7 +13,7 @@ the WrapContent attribute on child views.
 However, we need to use the property in the SwipeRefreshLayout<br/>
 when we implement the UI according to the designers' demand.
 
-This layout was made for such a time.
+This layout was made for such a case.
 
 
 ## Difference from SwipeRefreshLayout
@@ -131,6 +131,11 @@ If there are parts that do not work well, please fix them by using PR.
 ScrollView | ListView | RecylerView
 -----------|----------|------------
 ![ScrollView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_scrollview.gif)|![ListView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_listview.gif)|![RecyclerView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_recyclerview.gif)
+
+
+## Maven
+
+TBD
 
 
 ## Practice
