@@ -39,6 +39,7 @@
         android:visibility="gone"
         >
 
+        <!-- The area where the height changes -->
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"

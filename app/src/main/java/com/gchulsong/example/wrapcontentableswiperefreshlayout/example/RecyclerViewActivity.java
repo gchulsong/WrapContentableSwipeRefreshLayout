@@ -34,6 +34,7 @@ public class RecyclerViewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_example_recyclerview);
+        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LOW_PROFILE);
 
         back = findViewById(R.id.back);
         back.setOnClickListener(new View.OnClickListener() {
