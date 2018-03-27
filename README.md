@@ -1,6 +1,8 @@
 # WrapContentableSwipeRefreshLayout
 SwipeRefreshLayout with wrap_content available for properties of child View
 
+<br/>
+<br/>
 
 ## Greetings
 
