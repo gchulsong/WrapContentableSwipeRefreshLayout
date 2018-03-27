@@ -2,7 +2,6 @@
 SwipeRefreshLayout with wrap_content available for properties of child View
 
 <br/>
-<br/>
 
 ## Greetings
 
@@ -162,7 +161,7 @@ Jake.
 ## License
 ```
 ------------------------------------------------------------
-"THE BEERWARE LICENSE" (Revision 42):
+"THE BEERWARE LICENSE" (Revision 1):
 gchulsong wrote this code. As long as you retain
 this notice, you can do whatever you want with this stuff.
 If we meet someday, and you think this stuff is worth it,
