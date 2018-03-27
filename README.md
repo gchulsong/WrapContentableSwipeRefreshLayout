@@ -14,10 +14,14 @@ when we implement the UI according to the designers' demand.
 This layout was made for such a time.
 
 
-SwipeRefreshLayout | WrapContentableSwipeRefreshLayout
--------------------|----------------------------------
-![SRL](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/asis_code.png) | ![WCSRL](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/tobe_code.png)
-![SRL](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/asis_preview.png) | ![WCSRL](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/tobe_preview.png)
+### SwipeRefreshLayout
+![Code](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/asis_code.png)
+![Preview](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/asis_preview.png)
+
+### WrapContentableSwipeRefreshLayout
+![Code](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/tobe_code.png)
+![Preview](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/tobe_preview.png)
+
 
 This layout uses the code from SwipeRefreshLayout,
 so you can use all the features of SwipeRefreshLayout 100% equally.
@@ -28,12 +32,15 @@ As shown in the picture below, any view such as ScrollView, ListView,
 and RecyclerView works well for child view.
 If there are parts that do not work well, please fix them by using PR.
 
-The following figure shows this layout in Prism Live Studio,
-an app I am participating in as a developer.
 
 ScrollView | ListView | RecylerView
 -----------|----------|------------
 ![ScrollView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_scrollview.gif) | ![ListView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_listview.gif) |![RecyclerView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_recyclerview.gif)
+
+
+The following figure shows this layout in Prism Live Studio,
+an app I am participating in as a developer.
+![PrismLiveStudio](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_prism.png)
 
 It's a great live broadcast delivery tool
 and I hope you will use it a lot.
