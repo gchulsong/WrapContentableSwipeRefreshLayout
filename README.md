@@ -14,6 +14,9 @@ when we implement the UI according to the designers' demand.
 
 This layout was made for such a time.
 
+
+## Difference between SwipeRefreshLayout and WrapContentableSwipeRefreshLayout
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout
@@ -54,40 +57,9 @@ This layout was made for such a time.
                     android:textColor="#333333"
                     />
             </FrameLayout>
+    
+            ...
 
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="2dp"
-                android:background="#AAAAAA"
-                >
-
-                <TextView
-                    android:layout_gravity="center"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="row 2"
-                    android:textSize="12dp"
-                    android:textColor="#333333"
-                    />
-            </FrameLayout>
-
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="2dp"
-                android:background="#AAAAAA"
-                >
-
-                <TextView
-                    android:layout_gravity="center"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="row 3"
-                    android:textSize="12dp"
-                    android:textColor="#333333"
-                    />
-            </FrameLayout>
         </LinearLayout>
     </android.support.v4.widget.SwipeRefreshLayout>
 </FrameLayout>
@@ -136,44 +108,16 @@ This layout was made for such a time.
                     />
             </FrameLayout>
 
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="2dp"
-                android:background="#AAAAAA"
-                >
+            ...
 
-                <TextView
-                    android:layout_gravity="center"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="row 2"
-                    android:textSize="12dp"
-                    android:textColor="#333333"
-                    />
-            </FrameLayout>
-
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="2dp"
-                android:background="#AAAAAA"
-                >
-
-                <TextView
-                    android:layout_gravity="center"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="row 3"
-                    android:textSize="12dp"
-                    android:textColor="#333333"
-                    />
-            </FrameLayout>
         </LinearLayout>
     </com.gchulsong.wrapcontentableswiperefreshlayout.WrapContentableSwipeRefreshLayout>
 </FrameLayout>
 ```
 ![Preview](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/tobe_preview.png)
+
+
+## Usage
 
 This layout uses the code from SwipeRefreshLayout,<br/>
 so you can use all the features of SwipeRefreshLayout 100% equally.<br/>
@@ -187,18 +131,21 @@ ScrollView | ListView | RecylerView
 -----------|----------|------------
 ![ScrollView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_scrollview.gif)|![ListView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_listview.gif)|![RecyclerView example](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_recyclerview.gif)
 
+
+## Practice
+
 The following figure shows this layout in Prism Live Studio,<br/>
 an app I am participating in as a developer.<br/>
 
-https://play.google.com/store/apps/details?id=com.prism.live
-
+[PRISM Live Studio](https://play.google.com/store/apps/details?id=com.prism.live)
 ![PrismLiveStudio](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_prism.gif)
 
-It's a great live broadcast delivery tool<br/>
+It's a great live broadcast tool<br/>
 and I hope you will use it a lot.
 
 Thank you,<br/>
 Jake.
+
 
 ## License
 ```
