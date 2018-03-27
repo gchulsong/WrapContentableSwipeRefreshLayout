@@ -75,7 +75,7 @@ public class RecyclerViewActivity extends AppCompatActivity {
                 wrapContentableSwipeRefreshLayout.setVisibility(View.VISIBLE);
                 wrapContentableSwipeRefreshLayout.startAnimation(AnimationUtils.loadAnimation(RecyclerViewActivity.this, R.anim.view_enter_from_bottom));
             }
-        }, 300);
+        }, 500);
     }
 
     private class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ExampleViewHolder> {

@@ -66,6 +66,6 @@ public class ScrollViewActivity extends AppCompatActivity {
                 wrapContentableSwipeRefreshLayout.setVisibility(View.VISIBLE);
                 wrapContentableSwipeRefreshLayout.startAnimation(AnimationUtils.loadAnimation(ScrollViewActivity.this, R.anim.view_enter_from_bottom));
             }
-        }, 300);
+        }, 500);
     }
 }

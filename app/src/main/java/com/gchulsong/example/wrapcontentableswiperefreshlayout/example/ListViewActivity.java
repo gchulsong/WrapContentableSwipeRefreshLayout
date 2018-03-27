@@ -66,6 +66,6 @@ public class ListViewActivity extends AppCompatActivity {
                 wrapContentableSwipeRefreshLayout.setVisibility(View.VISIBLE);
                 wrapContentableSwipeRefreshLayout.startAnimation(AnimationUtils.loadAnimation(ListViewActivity.this, R.anim.view_enter_from_bottom));
             }
-        }, 300);
+        }, 500);
     }
 }
