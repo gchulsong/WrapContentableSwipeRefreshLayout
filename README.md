@@ -1,12 +1,12 @@
 # WrapContentableSwipeRefreshLayout
 SwipeRefreshLayout with wrap_content available for properties of child View
-
-
+<br/>
+<br/>
 Hi developers.
 
-As many android developers know,  
-android.support.v4.widget.SwipeRefreshLayout does not allow  
-the WrapContent attribute on child views.
+As many android developers know,<br/>
+android.support.v4.widget.SwipeRefreshLayout does not allow<br/>
+the WrapContent attribute on child views.<br/>
 
 However, we need to use the property in the SwipeRefreshLayout  
 when we implement the UI according to the designers' demand.  
