@@ -2,7 +2,6 @@
 SwipeRefreshLayout with wrap_content available for properties of child View
 
 <br/>
-<br/>
 
 ## Greetings
 
@@ -20,6 +19,7 @@ This layout was made for such a case.
 
 ## Difference from SwipeRefreshLayout
 
+#### SwipeRefreshLayout
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout
@@ -69,7 +69,7 @@ This layout was made for such a case.
 ```
 ![Preview](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/asis_preview_new.png)
 
-
+#### WrapContentableSwipeRefreshLayout
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout
@@ -162,7 +162,7 @@ Jake.
 ## License
 ```
 ------------------------------------------------------------
-"THE BEERWARE LICENSE" (Revision 42):
+"THE BEERWARE LICENSE" (Revision 1):
 gchulsong wrote this code. As long as you retain
 this notice, you can do whatever you want with this stuff.
 If we meet someday, and you think this stuff is worth it,
