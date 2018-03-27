@@ -48,6 +48,8 @@ ScrollView | ListView | RecylerView
 The following figure shows this layout in Prism Live Studio,<br/>
 an app I am participating in as a developer.<br/>
 
+https://play.google.com/store/apps/details?id=com.prism.live
+
 ![PrismLiveStudio](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/example_prism.gif)
 
 
