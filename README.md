@@ -126,6 +126,8 @@ This layout uses the code from SwipeRefreshLayout,<br/>
 so you can use all the features of SwipeRefreshLayout 100% equally.<br/>
 So, usage is no different from SwipeRefreshLayout.
 
+[SwipeRefreshLayout](https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout.html)
+
 As shown in the picture below, any view such as ScrollView, ListView,<br/>
 and RecyclerView works well for child view.<br/>
 If there are parts that do not work well, please fix them by using PR.
