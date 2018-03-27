@@ -64,7 +64,7 @@ This layout was made for such a time.
     </android.support.v4.widget.SwipeRefreshLayout>
 </FrameLayout>
 ```
-![Preview](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/asis_preview.png)
+![Preview](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/asis_preview.png width="206" height="335")
 
 
 ```xml
@@ -114,7 +114,7 @@ This layout was made for such a time.
     </com.gchulsong.wrapcontentableswiperefreshlayout.WrapContentableSwipeRefreshLayout>
 </FrameLayout>
 ```
-![Preview](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/tobe_preview.png)
+![Preview](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/tobe_preview.png width="206" height="335")
 
 
 ## Usage
