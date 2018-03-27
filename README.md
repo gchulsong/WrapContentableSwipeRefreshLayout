@@ -19,6 +19,7 @@ This layout was made for such a case.
 
 ## Difference from SwipeRefreshLayout
 
+#### SwipeRefreshLayout
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout
@@ -68,7 +69,7 @@ This layout was made for such a case.
 ```
 ![Preview](https://github.com/gchulsong/WrapContentableSwipeRefreshLayout/blob/master/screenshot/asis_preview_new.png)
 
-
+#### WrapContentableSwipeRefreshLayout
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout
