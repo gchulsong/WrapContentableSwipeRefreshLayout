@@ -252,6 +252,8 @@ public class WrapContentableSwipeRefreshLayout extends ViewGroup implements Nest
 
     /**
      * One of DEFAULT, or LARGE.
+     *
+     * @param size size
      */
     public void setSize(int size) {
         if (size != CircularProgressDrawable.LARGE && size != CircularProgressDrawable.DEFAULT) {
@@ -274,7 +276,7 @@ public class WrapContentableSwipeRefreshLayout extends ViewGroup implements Nest
     /**
      * Simple constructor to use when creating a SwipeRefreshLayout from code.
      *
-     * @param context
+     * @param context context
      */
     public WrapContentableSwipeRefreshLayout(@NonNull Context context) {
         this(context, null);
@@ -283,8 +285,8 @@ public class WrapContentableSwipeRefreshLayout extends ViewGroup implements Nest
     /**
      * Constructor that is called when inflating SwipeRefreshLayout from XML.
      *
-     * @param context
-     * @param attrs
+     * @param context context
+     * @param attrs attrs
      */
     public WrapContentableSwipeRefreshLayout(@NonNull Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
@@ -344,6 +346,8 @@ public class WrapContentableSwipeRefreshLayout extends ViewGroup implements Nest
 
     /**
      * Set the listener to be notified when a refresh is triggered via the swipe gesture.
+     *
+     * @param listener listener
      */
     public void setOnRefreshListener(@Nullable SwipeRefreshLayout.OnRefreshListener listener) {
         mListener = listener;
@@ -453,6 +457,8 @@ public class WrapContentableSwipeRefreshLayout extends ViewGroup implements Nest
 
     /**
      * @deprecated Use {@link #setProgressBackgroundColorSchemeResource(int)}
+     *
+     * @param colorRes colorRes
      */
     @Deprecated
     public void setProgressBackgroundColor(int colorRes) {
@@ -471,7 +477,7 @@ public class WrapContentableSwipeRefreshLayout extends ViewGroup implements Nest
     /**
      * Set the background color of the progress spinner disc.
      *
-     * @param color
+     * @param color color
      */
     public void setProgressBackgroundColorSchemeColor(@ColorInt int color) {
         mCircleView.setBackgroundColor(color);
@@ -479,6 +485,8 @@ public class WrapContentableSwipeRefreshLayout extends ViewGroup implements Nest
 
     /**
      * @deprecated Use {@link #setColorSchemeResources(int...)}
+     *
+     * @param colors colors
      */
     @Deprecated
     public void setColorScheme(@ColorRes int... colors) {
@@ -489,7 +497,7 @@ public class WrapContentableSwipeRefreshLayout extends ViewGroup implements Nest
      * Set the color resources used in the progress animation from color resources.
      * The first color will also be the color of the bar that grows in response to a user swipe gesture.
      *
-     * @param colorResIds
+     * @param colorResIds colorResIds
      */
     public void setColorSchemeResources(@ColorRes int... colorResIds) {
         final Context context = getContext();
@@ -503,7 +511,7 @@ public class WrapContentableSwipeRefreshLayout extends ViewGroup implements Nest
     /**
      * Set the colors used in the progress animation. The first color will also be the color of the bar that grows in response to a user swipe gesture.
      *
-     * @param colors
+     * @param colors colors
      */
     public void setColorSchemeColors(@ColorInt int... colors) {
         ensureTarget();
@@ -534,7 +542,7 @@ public class WrapContentableSwipeRefreshLayout extends ViewGroup implements Nest
     /**
      * Set the distance to trigger a sync in dips
      *
-     * @param distance
+     * @param distance distance
      */
     public void setDistanceToTriggerSync(int distance) {
         mTotalDragDistance = distance;
