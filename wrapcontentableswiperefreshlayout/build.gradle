@@ -30,7 +30,7 @@ dependencies {
 }
 
 publish {
-    userOrg = 'gchulsong'
+    userOrg = 'widget'
     groupId = 'com.gchulsong.widget'
     artifactId = 'wrapcontentableswiperefreshlayout'
     publishVersion = '1.0.0'
@@ -38,11 +38,4 @@ publish {
     website = 'https://github.com/gchulsong/WrapContentableSwipeRefreshLayout'
     repository = 'https://github.com/gchulsong/WrapContentableSwipeRefreshLayout.git'
 }
-// ./gradlew clean build bintrayUpload -PbintrayUser=gchulsong -PbintrayKey=0bbb2efa8c1110d35dd83f7e365f34d52bda581c -PdryRun=false/
-
-/*
-* What went wrong:
-Execution failed for task ':wrapcontentableswiperefreshlayout:bintrayUpload'.
-> Could not upload to 'https://api.bintray.com/content/gchulsong/maven/wrapcontentableswiperefreshlayout/1.0.0/com/gchulsong/widget/wrapcontentableswiperefreshlayout/1.0.0/wrapcontentableswiperefreshlayout-1.0.0-sources.jar': HTTP/1.1 401 Unauthorized [message:This resource requires authentication]
-*/
-
+// ./gradlew clean build bintrayUpload -PbintrayUser=gchulsong -PbintrayKey=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -PdryRun=false/
