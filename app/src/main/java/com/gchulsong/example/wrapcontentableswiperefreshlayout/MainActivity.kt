@@ -28,7 +28,4 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, RecyclerViewActivity::class.java))
         }
     }
-    // 변경1
-    // 변경2
-    // 변경3
 }
